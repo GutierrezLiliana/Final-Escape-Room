@@ -33,11 +33,16 @@ function playSound2() {
 function checkColors(elem){
 	if (a.classList.contains("opaque") && b.classList.contains("opaque") && c.classList.contains("opaque") && d.classList.contains("opaque")){
 		alert("1st Question Answers are correct! Now you can go onto the second question.");
-	} else if (e.classList.contains("opaque") && f.classList.contains("opaque") && g.classList.contains("opaque")){
+	}
+}
+
+function checkColors2(elem){
+	if (e.classList.contains("opaque") && f.classList.contains("opaque") && g.classList.contains("opaque")){
 		alert("2nd Questions Answers are correct! You have completed this escape room and now you can go to the next escape room by clicked on the button.");
 		//i wish this function would work when all lights are yellow, or all are red...
 	}
 }
+
 var timeLeft = 60;
     var elem = document.getElementById('some_div');
     
