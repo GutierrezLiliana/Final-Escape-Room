@@ -87,6 +87,21 @@ div.c {
   font-size: 120%;
 }
 
+p.two{
+	border-style:solid;
+	border-width: medium;
+}
+
+.hide{
+		display:none;
+}
+
+.show{
+	display:flex;
+	margin-left:auto;
+	margin-right:auto;
+}
+
 .opaque{
     cursor: grab;
 	opacity: 0.2;
