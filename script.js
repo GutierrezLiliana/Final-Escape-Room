@@ -38,10 +38,10 @@ function checkColors(elem){
 
 function checkColors2(elem){
 	if (e.classList.contains("opaque") && f.classList.contains("opaque") && g.classList.contains("opaque")){
-		alert("2nd Questions Answers are correct! You have completed this escape room and now you can go to the next escape room by clicked on the button.");
+		alert("2nd Questions Answers are correct! You have completed this escape room and now you can go to the next escape room by clicking on the key.");
 			document.getElementById("key").classList.add("show");
 			document.getElementById("key").classList.remove("hide");
-		alert("Click on the key to go to the next Escape Room");
+			alert("Click on the key to go to the next Escape Room");
 //i wish this function would work when all lights are yellow, or all are red...
 	}
 }
